@@ -1,0 +1,23 @@
+Assets manifest for Vistaar Verse
+
+Images (use WebP/AVIF with JPEG fallbacks):
+- product-photo.webp (1200x800) -> fallback: product-photo.jpg
+- realestate.webp (1200x800) -> fallback: realestate.jpg
+- ugc.webp (1200x800) -> fallback: ugc.jpg
+- video.webp (1200x800) -> fallback: video.jpg
+- ecom.webp (1200x800) -> fallback: ecom.jpg
+- events.webp (1200x800) -> fallback: events.jpg
+
+Animation:
+- Spline hero animation URL: https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode
+
+Lottie (optional):
+- loader.json (small 20-40kb loop)
+
+Icons:
+- favicon.svg (existing)
+
+Notes:
+- Provide 1x (1200w) and 2x (2400w) responsive sources
+- Compress JPEG fallbacks at ~70% quality
+- Add lazy loading to all non-critical images
